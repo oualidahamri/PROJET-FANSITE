@@ -1,0 +1,184 @@
+body{
+  font-family: "Merriweathe", serif;
+
+  font-style: normal;
+  background-color: rgb(88, 157, 216);
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  position: relative;
+  }
+
+  @media only screen and (max-width:780px) {
+  .navbar{
+    height: 100%;
+    }
+  .navbar ul{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+    gap: 0,5em;
+    }
+  .sousnavbar{
+    height: 100%;
+    }
+    .sousnavbar ul{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 0,5em;
+      gap:1em;
+    }
+    .navbar2{
+        height: 100%;
+    }
+    .navbar2 ul{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 2em;
+      gap: 1em;
+    }
+  .h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 100%;
+    }
+    .h1 p{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 100%;  
+    }
+  .h2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size:100%;
+  }
+  .classactus a{
+    display: flex;
+    flex-direction: colum;
+  }
+  .classactus p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+    gap: 1em;
+    font-size: 100%;
+  }
+  }
+    
+
+  .navbar{
+    height: 100;
+    background-color: rgb(164, 164, 182);
+    height: 20%;
+    align-content: center;
+  }
+  .navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .navbar ul li a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .navbar ul li{
+    list-style-type: none;
+  }
+  
+  .sousnavbar{
+    background-color: rgb(164, 164, 182);
+    height: 15%;
+    align-content: center;
+}
+
+.sousnavbar ul{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.sousnavbar ul li a{
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.sousnavbar ul li{
+  list-style-type: none;
+}
+.sectionh2{
+
+  background-color: rgba(211, 196, 176, 0.826);
+  padding: 1.5em;
+  margin: 0;
+  }
+.sectionactualites{
+  border-radius: 20px;
+  border-style: hidden;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 30px;
+  margin-bottom: 8em;
+
+}
+.actus{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center
+
+}
+
+.sectionh2 p{
+
+font-size: xx-small;
+padding-block: 1em;
+height: 1em;
+align-content: center;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.h3{
+  font-size: xx-small;
+}
+IMG{
+  background-color: rgb(218, 224, 229);
+  border-radius: 20px;
+  border-style: solid;
+  box-sizing: content-box;
+  margin: 20px;
+  padding: 30px;
+  margin-bottom: 2em;
+  font-size: 100%;
+}
+.navbar2{
+  background-color: rgb(164, 164, 182);
+    height: 15%;
+    align-content: center;
+}
+.navbar2 ul{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.navbar2 ul li a{
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar2 ul li{
+  list-style-type: none;
+}
+
+
+
+    
+

@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    background-color: cornsilk;
+}
+
+.navbar{
+    background-color: grey;
+    height: 6em;
+    align-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 1.3em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar2{
+    background-color: grey;
+    height: 5em;
+    align-content: center;
+}
+.navbar2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar2 ul li a{
+    color: white;
+    font-size: 0.8em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+
+
+
+
+.Titre{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.Blocs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30em;
+    margin-bottom: 5em;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+}
+
+.Photo{
+    height: 65%;
+}
+.Photo2{
+    height: 60%;
+}
+.Photo3{
+    height: 100%;
+}
+
+h2{
+    margin-top: 1.3em;
+    margin-bottom: 0.6em;
+}
+
+p{
+    width: 80%;
+    text-align: center;
+}
+
+@media only screen and (max-width : 1233px){
+    .Blocs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 5em;
+        width: 100%;
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .Photo{
+        width: 30%;
+    }
+    .Photo2{
+        width: 50%;
+    }
+    .Photo3{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+        gap: 1em;
+    }
+    .navbar{
+        height: 100%;
+    }
+    .navbar2 ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+        gap: 1em;
+    }
+    .navbar2{
+        height: 100%;
+    }
+    .Titre{
+        font-size: 100%;
+    }
+}

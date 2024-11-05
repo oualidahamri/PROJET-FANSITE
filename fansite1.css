@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: "Bebas Neue", serif;
+    font-style: normal;
+    color: whitesmoke;
+    position: relative;
+}
+
+.navbar{
+    background-color: grey;
+    height: 6em;
+    align-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 2.3em;
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.432);
+}
+.sousnavbar{
+    background-color: rgb(110, 77, 77);
+    height: 3em;
+    align-content: center;
+}
+.sousnavbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.sousnavbar ul li a{
+    color: white;
+    font-size: 1.3em;
+    list-style-type: none;
+    text-decoration: none;
+}
+.sousnavbar ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+
+
+.navbar2{
+    background-color: grey;
+    height: 5em;
+    align-content: center;
+}
+.navbar2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.navbar2 ul li a{
+    color: white;
+    font-size: 1em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1133px){
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+        gap: 0.8em;
+    }
+    .navbar{
+        height: 100%;
+    }
+    .navbar2 ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+        gap: 0.8em;
+    }
+    .navbar2{
+        height: 100%;
+    }
+    .sousnavbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1em;
+        gap: 0.8em;
+    }
+    .sousnavbar{
+        height: 100%;
+    }
+
+    .feuille{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .Discog{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .streamés{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .act{
+        width: 100%;
+    }
+    .Evenements{
+        width: 100%;
+    }
+    .clip{
+        width: 100%;
+    }
+    .reseau{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10%;
+    }
+}
+
+main{
+    background-color: #be1212;
+    padding: 1em;
+}
+
+.feuille{
+    background-color: #4e4e4e;
+    padding: 2em;
+}
+
+.titre{
+    display: block;
+    justify-content: center;
+    width: 50%;
+    margin-left: 3em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+.costume{
+    float: right;
+    width: 23%;
+    margin-right: 8em;
+    border-style: hidden;
+    border-radius: 60px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.costume:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px white;
+}
+
+.Présentation{
+    width: 60%;
+    margin-left: 2.5em;
+    margin-bottom: 4em;
+    font-size: 1.8em;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.7em;
+    font-size: 2.5em;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 1.8em;
+}
+
+.Discog{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+.couverture{
+    width: 16em;
+}
+.couverture:hover{
+    transform: scale(1.05);
+}
+
+.streamés{
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.Actualités{
+    border-style: hidden;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    background-color: #be1212;
+    margin-bottom: 8em;
+}
+
+.actu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actu:hover{
+    transform: scale(1.05);
+}
+
+
+.Evenements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.concert{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.concert2{
+    width: 37em;
+    display: flex;
+    justify-content: space-around;
+}
+.concert:hover{
+    transform: scale(1.05);
+}
+.concert2:hover{
+    transform: scale(1.05);
+}
+
+#pres{
+    font-size: 1.3em;
+}
+
+p{
+    margin-top: 1em;
+    width: 80%;
+    text-align: center;
+    font-size: 1.4em;
+}
+.Accor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.prochains{
+    position: relative;
+    margin-top: 6em;
+    margin-right: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: hidden;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 30px;
+    background-color: #be1212;
+}
+.Annonce{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.prochains ul li{
+    text-align: center;
+}
+
+.gallery{
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vmin;
+    li{
+        list-style-type: none;
+        height: 14em;
+        flex-grow: 1;
+        overflow-y: hidden;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.clip{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.clip a{
+    width: 35em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.bas{
+    margin-top: 5em;
+}
+.reseau{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.res{
+    width: 5em;
+}
